@@ -9,7 +9,7 @@ Copy and paste code from the Main.java to Android Studio
 
 Chnage your 
 
-// Load your URL
+//Load your URL
         webView.loadUrl("https://example.xyz");
 
 Then you can view the website.
