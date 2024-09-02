@@ -9,14 +9,14 @@ Copy and paste code from the Main.java to Android Studio
 
 Chnage your 
 
-//Load your URL
-        webView.loadUrl("https://example.xyz");
+"//Load your URL
+        webView.loadUrl("https://example.xyz");"
 
 Then you can view the website.
 
 
 **2. Add Social Media link to your application**
-//Add if(url.contains("facebook.com"))
+"//Add if(url.contains("facebook.com"))
 webView.setWebViewClient(new WebViewClient() {
             @Override
             public boolean shouldOverrideUrlLoading(WebView view, String url) {
@@ -31,4 +31,4 @@ webView.setWebViewClient(new WebViewClient() {
 
                 return true;
             }
-        });
+        });"
