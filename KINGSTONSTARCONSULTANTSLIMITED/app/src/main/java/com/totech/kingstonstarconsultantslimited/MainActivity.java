@@ -37,7 +37,20 @@ public class MainActivity extends AppCompatActivity {
                     Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
                     startActivity(intent);
                 }
-
+                else if (url.contains("facebook")) { //load fb page link
+                    view.loadUrl(url);
+                    Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+                    startActivity(intent);
+                }
+                else if (url.contains("instagram")) { //load instagram link
+                    view.loadUrl(url);
+                    Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+                    startActivity(intent);
+                } else if (url.contains("whatsapp")) { //load whatsapp link
+                    view.loadUrl(url);
+                    Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+                    startActivity(intent);
+                }
                 return true;
             }
         });
