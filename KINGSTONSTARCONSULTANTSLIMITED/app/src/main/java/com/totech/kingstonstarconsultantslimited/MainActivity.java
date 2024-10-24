@@ -51,6 +51,12 @@ public class MainActivity extends AppCompatActivity {
                     Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
                     startActivity(intent);
                 }
+                if (url.contains("https://cdn.botpress.cloud")) { //load whatsapp link
+                    view.loadUrl(url);
+                    Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+                    startActivity(intent);
+                }
+
                 return true;
             }
         });
@@ -67,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // Load your URL
-        webView.loadUrl("https://lilmermaidshowroom.xyz");
+        webView.loadUrl("https://kafai-mmd.online");
     }
 
     private void openFilePicker() {
@@ -100,4 +106,3 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 }
-
