@@ -1,5 +1,7 @@
 package com.totech.kingstonstarconsultantslimited;
 
+package hk.totech.freedimensiontech;
+
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Intent;
@@ -32,21 +34,22 @@ public class MainActivity extends AppCompatActivity {
                 if (url != null && (url.startsWith("http://") || url.startsWith("https://"))) {
                     view.loadUrl(url); // Load all URLs in the WebView
                 }
-                else if (url.contains("m.me")) {
+                if (url.contains("m.me")) {
                     view.loadUrl(url);
                     Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
                     startActivity(intent);
                 }
-                else if (url.contains("facebook")) { //load fb page link
+                if (url.contains("facebook")) { //load fb page link
                     view.loadUrl(url);
                     Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
                     startActivity(intent);
                 }
-                else if (url.contains("instagram")) { //load instagram link
+                if (url.contains("instagram")) { //load instagram link
                     view.loadUrl(url);
                     Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
                     startActivity(intent);
-                } else if (url.contains("whatsapp")) { //load whatsapp link
+                } 
+                if (url.contains("whatsapp")) { //load whatsapp link
                     view.loadUrl(url);
                     Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
                     startActivity(intent);
@@ -73,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // Load your URL
-        webView.loadUrl("https://kafai-mmd.online");
+        webView.loadUrl("https://free-d.shop");
     }
 
     private void openFilePicker() {
