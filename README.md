@@ -12,7 +12,15 @@ Create a new pj:
 <h1>User permission</h1>
 
 Then find out the AndroidManifest.xml to setup the pressmission
+
 ![Screenshot 2025-06-17 at 3 45 43 PM](https://github.com/user-attachments/assets/dd3b1b89-fd99-4524-8dd6-b768e3bc5bf4)
+
+paste the source code:
+
+<uses-permission android:name="android.permission.INTERNET"/>
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+<uses-permission android:name="android.permission. ACTION_MANAGE_ALL_FILES_ACCESS_PERMISSION"/>
 
 <h1>MainActivity Source code</h1>
 
