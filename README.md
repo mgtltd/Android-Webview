@@ -147,7 +147,8 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 <h1>WebVView Layout</h1>
-Then go to **layout** folder 
+Then go to **layout** folder
+
 <img width="397" alt="Screenshot 2025-06-17 at 3 50 09 PM" src="https://github.com/user-attachments/assets/8447fc92-d529-46f3-9735-e2b14d37fb0b" />
 
 paste your source code to **activity_main.xml**
@@ -169,6 +170,7 @@ paste your source code to **activity_main.xml**
 
 <h1> Add Mobile application logo</h1>
 Find out the mipmap folder
+
 <img width="369" alt="Screenshot 2025-06-17 at 4 04 00 PM" src="https://github.com/user-attachments/assets/4db511cd-7d15-4a83-8385-98a3dcbccf8f" />
 
 Then rightclick on mipmap folder 
