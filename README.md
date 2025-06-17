@@ -17,10 +17,10 @@ Then find out the AndroidManifest.xml to setup the pressmission
 
 paste the source code:
 
-<uses-permission android:name="android.permission.INTERNET"/>
-<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
-<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-<uses-permission android:name="android.permission. ACTION_MANAGE_ALL_FILES_ACCESS_PERMISSION"/>
+****<uses-permission android:name="android.permission.INTERNET"/>**
+**<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>**
+**<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>**
+<uses-permission android:name="android.permission. ACTION_MANAGE_ALL_FILES_ACCESS_PERMISSION"/>**
 
 <h1>MainActivity Source code</h1>
 
