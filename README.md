@@ -17,10 +17,12 @@ Then find out the AndroidManifest.xml to setup the pressmission
 
 paste the source code:
 
-****<uses-permission android:name="android.permission.INTERNET"/>**
-**<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>**
-**<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>**
-<uses-permission android:name="android.permission. ACTION_MANAGE_ALL_FILES_ACCESS_PERMISSION"/>**
+```
+<uses-permission android:name="android.permission.INTERNET"/>
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+<uses-permission android:name="android.permission. ACTION_MANAGE_ALL_FILES_ACCESS_PERMISSION"/>
+```
 
 <h1>MainActivity Source code</h1>
 
@@ -34,6 +36,7 @@ then paste the source code
 **Remark: change your package name**
 **MainActivity.java**
 
+```
 package example.com
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -142,7 +145,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 }
-
+```
 <h1>WebVView Layout</h1>
 Then go to **layout** folder 
 <img width="397" alt="Screenshot 2025-06-17 at 3 50 09 PM" src="https://github.com/user-attachments/assets/8447fc92-d529-46f3-9735-e2b14d37fb0b" />
